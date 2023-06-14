@@ -1,0 +1,18 @@
+/*  1 - Integraçao */
+h1{
+    color: red;
+}
+/* 2 - Comentários com CSS */
+
+/* 3 - id */
+h3{
+    color: green;
+}
+
+#title{
+    color: blue;
+}
+/* 4 - classes - . */
+.text{
+    color: blueviolet;
+}
