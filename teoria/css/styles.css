@@ -1,18 +1,73 @@
 /*  1 - Integraçao */
-h1{
+h1 {
     color: red;
 }
+
 /* 2 - Comentários com CSS */
 
 /* 3 - id */
-h3{
+h3 {
     color: green;
 }
 
-#title{
+#title {
     color: blue;
 }
+
 /* 4 - classes - . */
-.text{
+.text {
     color: blueviolet;
+}
+
+/* 5 - background */
+.background {
+    background-color: red;
+    color: blue;
+    font-size: 30px;
+}
+
+/* 6 - dois elementos, uma regra */
+p,
+.title-small {
+    color: darkmagenta;
+}
+
+/* 7 - background image */
+.background {
+    background-image: url("../img/saasweeklogo.png");
+    padding: 20px;
+    color: black;
+}
+
+.background-2 {
+    background-color: green;
+}
+
+/* 8 - largura e altura */
+#width-height {
+    width: 200px;
+    height: 100px;
+    background-color: black;
+}
+
+/* 9 - padding */
+#padding{
+background-color: magenta;
+padding: 20px;
+}
+
+/* 10 - margin */
+#margin{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 20px;
+}
+/* 11 - border */
+#border {
+    border: 3px solid red;
+    width: 100px;
+    height: 100px;
+    padding: 40;
+    margin: 30px;
 }
